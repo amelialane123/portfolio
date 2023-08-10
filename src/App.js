@@ -26,10 +26,11 @@ function App() {
         </nav>
       </div>
       <Routes>
-      <Route exact path='/about' element= {<About />} />
-      <Route exact path='/projects' element= {<Projects />} />
-      <Route exact path='/timelog' element= {<TimeLog />} />
-      <Route exact path='/resume' element= {<Resume />} />
+        <Route exact path = '/' element = {<About />} />
+        <Route exact path='/about' element= {<About />} />
+        <Route exact path='/projects' element= {<Projects />} />
+        <Route exact path='/timelog' element= {<TimeLog />} />
+        <Route exact path='/resume' element= {<Resume />} />
       </Routes>
     </BrowserRouter>
   );
