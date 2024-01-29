@@ -20,7 +20,7 @@ function App() {
           <ul className = "navList">
             <li><Link to='/about'>About</Link></li>
             <li><Link to='/projects'>Projects</Link></li>
-            <li><Link to ='/timelog'>Time Log</Link></li>
+            {/* <li><Link to ='/timelog'>Time Log</Link></li> */}
             <li><Link to ='/resume'>Resume</Link></li>
           </ul>
         </nav>
